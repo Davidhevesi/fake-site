@@ -8,3 +8,10 @@
   src: url('../public/fonts/SourceSansPro-Black.otf');
  }
 }
+
+.hero-custom {
+    background-image: url('../public/assets/hero-image.png');
+
+}
+
+
