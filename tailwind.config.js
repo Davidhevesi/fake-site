@@ -11,18 +11,18 @@ module.exports = {
       blueish: "#88939E",
       white: "#ffff",
       black: "#0000",
-      // Gradient|
       sundown: "ffb1b5",
       "ruby-red": "#EE2E1D",
     },
     fontSize: {
       lg: ["36px", { lineHeight: "36px" }],
-      sm: ["22px", { lineHeight: "22px" }],
+      sm: ["15px", { lineHeight: "15px" }],
     },
     fontFamily: {
       SourceSansPro: "SourceSansPro, sans-serif",
+      SourceSansProSemi: "SourceSansPro, sans-serif",
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
