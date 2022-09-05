@@ -5,13 +5,14 @@
 @layer base{
  @font-face {
   font-family: SourceSansPro;
-  src: url('../public/fonts/SourceSansPro-Black.otf');
+  src: url('../public/fonts/SourceSansPro-ExtraLight.otf');
+ 
  }
-}
-
-.hero-custom {
-    background-image: url('../public/assets/hero-image.png');
-
+ @font-face {
+    font-family: SourceSansProSemi;
+    src: url('../public/fonts/SourceSansPro-Light.otf');
+  
+   }
 }
 
 
